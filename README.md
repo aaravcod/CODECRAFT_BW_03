@@ -35,8 +35,15 @@ cd your-repo
 ```bash
 npm install i
 ```
+### 3. Set Up Environment
+```bash
+PORT=3000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
 
-### 3.Start the server
+```
+
+### 4. Start the server
 ```bash
 node server.js
 ```
